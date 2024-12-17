@@ -18,7 +18,7 @@ tools and setups :
     nmap --> to detect the security valnarability with the port SMB(445), SFTP(22), VNC(5900).
     vnc --> to have access of existing remote machine access full or view only(differnce from RDP is that user main users window does not locks)
     padas --> compare excel and filter out the required data 
-    bat and bash scription --> 
+    bat and bash scription --> scripts to execute multiple command at one go made it easy to user to execute multiple commands
 
 build solution for the problem:
     1) converter all the TAF script into puriely python --> builded package (framework) and script supported by the framework
