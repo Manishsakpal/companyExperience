@@ -22,14 +22,16 @@ tools and setups :
 
 build solution for the problem:
     1) converter all the TAF script into puriely python --> builded package (framework) and script supported by the framework
-    2) client use to give us test suite on qtest. Problem change in discription where not informed by him --> exported into excel and compared with the old data so to make changes in the existing script if change in discription
+    2) client use to give us test suite on qtest. Problem change in discription where not informed by him --> exported into excel and compared with the old data so to make changes in the existing script if change in discription.
     
+Quality imporvement:
+    well documented all the porcedures for new comers in the project 
+    kept minimal dependencies the the automation suite to run smoothly
 
 achievements :
     rising star of the year
     star of the month and spot award
     
-
 summary worked on:
     1. Automating window firmware automation functionality ==> Builder packaged for GUI and web functionality automation from scratch
     2. OS involve --> windows CE , windows 10 IOT (light weight super compact), windows 11
