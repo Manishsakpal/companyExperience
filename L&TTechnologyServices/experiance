@@ -1,0 +1,32 @@
+tools and setups :
+    Tera term --> which later on we use socket library in python
+    imagemagic --> to compare image differnces --> returns pixel differnce in text file and a image with red dotted differnce
+    Python libraries:   
+        * ratools --> control the control TAGs 
+        * veripy --> unit test and test log generation (supervisor(single file under test) , sequencer(multiple file under test))
+        * ModbusTcpClient --> ADAM setup to read?(values) and write(statue (ON,OFF)) the registory from the address, communicate on port 502 
+        * serial --> send serial command from KM232 cable (cable converts serial command to keyboard strokes)
+        * selenium --> 138 test cases to automate timezone configuratation 
+        * pywingui --> gui automation using python free
+        * tkinker --> gui application to enter initial configure and to select file to run multiple file at time selector
+        * os --> to automate all os based automation command execution
+    TAF designer --> test automation framework designer it is a GUI and web automation powerful tool that can automate functionality of application we powerfull
+    DLR setup --> Devices connected in a ring topology to mimic inductrial connection (2 controler(ladder runner), 2 etap(package transfer), and actual device)
+    KM232 --> mimic keyboard with serial input.
+    ADAM 5000 setup --> controled the USB Switching, LDR, replay.
+    L75 controller --> 32 I/O pins which has a controler(it has timer and counter in build) runs ladder init to execute pins to works as I/O for some logical functionality
+    nmap --> to detect the security valnarability with the port SMB(445), SFTP(22), VNC(5900).
+    vnc --> to have access of existing remote machine access full or view only(differnce from RDP is that user main users window does not locks)
+    padas --> compare excel and filter out the required data 
+    bat and bash scription --> 
+
+build solution for the problem:
+    1) converter all the TAF script into puriely python --> builded package (framework) and script supported by the framework
+    2) client use to give us test suite on qtest. Problem change in discription where not informed by him --> exported into excel and compared with the old data so to make changes in the existing script if change in discription
+    
+
+    
+
+summary worked on:
+    1. Automating window firmware automation functionality ==> Builder packaged for GUI and web functionality automation from scratch
+    2. OS involve --> windows CE , windows 10 IOT (light weight super compact), windows 11
