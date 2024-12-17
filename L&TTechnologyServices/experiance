@@ -12,7 +12,7 @@ tools and setups :
         * os --> to automate all os based automation command execution
     TAF designer --> test automation framework designer it is a GUI and web automation powerful tool that can automate functionality of application we powerfull
     DLR setup --> Devices connected in a ring topology to mimic inductrial connection (2 controler(ladder runner), 2 etap(package transfer), and actual device)
-    KM232 --> mimic keyboard with serial input.
+    USB-KM232 --> mimic keyboard with serial input.
     ADAM 5000 setup --> controled the USB Switching, LDR, replay.
     L75 controller --> 32 I/O pins which has a controler(it has timer and counter in build) runs ladder init to execute pins to works as I/O for some logical functionality
     nmap --> to detect the security valnarability with the port SMB(445), SFTP(22), VNC(5900).
